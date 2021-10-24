@@ -16,4 +16,5 @@ Knowledge and inspiration for the code in this repository was taken from:
 - Marcel Kießlich
 - Pascal Blessing
 
-(placeholder for future images/videos of the simulation)
+https://user-images.githubusercontent.com/34295773/138610298-1851bf02-e4a4-4335-a02d-151825802617.mp4
+
