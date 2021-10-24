@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 348698482}
   - component: {fileID: 348698483}
   m_Layer: 0
-  m_Name: Compute shaded GPU SPH
+  m_Name: ComputeShader GPU SPH
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -440,7 +440,7 @@ GameObject:
   - component: {fileID: 2110221310}
   - component: {fileID: 2110221311}
   m_Layer: 0
-  m_Name: Singlethreaded CPU SPH
+  m_Name: MonoBehaviour CPU SPH
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
