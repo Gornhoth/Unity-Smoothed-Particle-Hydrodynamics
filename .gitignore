@@ -1,0 +1,7 @@
+[Ll]ibrary/
+[Tt]emp/
+[Ll]ogs/
+[Uu]serSettings/
+*.csproj
+*.sln
+*.user
