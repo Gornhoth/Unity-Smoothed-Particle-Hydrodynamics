@@ -18,6 +18,8 @@ Knowledge and inspiration for the code in this repository was taken from:
 
 https://user-images.githubusercontent.com/34295773/138610298-1851bf02-e4a4-4335-a02d-151825802617.mp4
 
+![sensibleConfig](https://user-images.githubusercontent.com/34295773/138756364-eb689db3-0481-45ed-b74c-f559fe62911a.png)
+
 FYI: If you ever wondered just how big the difference between (parallel-)CPU and GPU implementations is, here is a plot measuring the average frametimes over the number of particles for each implementation on a system with an AMD Ryzen 3600 and NVIDIA GeForce RTX 2060 Super:
 
 ![AvgFrametimeBase_System2](https://user-images.githubusercontent.com/34295773/138755834-7dfae6c7-9682-43d3-b97d-67c051705f5b.png)
