@@ -118,6 +118,7 @@ public class ParticleManager : MonoBehaviour
         _neighbourList = new int[numberOfParticles * maximumParticlesPerCell * 8];   // 8 because we consider 8 cells
         _neighbourTracker = new int[numberOfParticles];
         SpatialHashing.CellSize = radius * 2; // Setting cell-size h to particle diameter.
+        SpatialHashing.CellSize = radius * 2 * 2; // Setting cell-size h to double particle diameter.
         SpatialHashing.Dimensions = dimensions;
         for (int i = 0; i < dimensions; i++)
         for (int j = 0; j < dimensions; j++)

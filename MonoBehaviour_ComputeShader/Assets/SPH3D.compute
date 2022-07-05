@@ -67,8 +67,10 @@ void RecalculateHashGrid(uint3 id : SV_DispatchThreadID)
     InterlockedAdd(_hashGridTracker[cellHash], 1, previousCount);
     if (previousCount >= maximumParticlesPerCell)
     {
+        _particles[id.x].Color = float4(255, 0, 0, 255);
         return;
     }
+    // _particles[id.x].Color = float4(255, 255, 255, 255);
     _hashGrid[cellHash * maximumParticlesPerCell + previousCount] = id.x;
 }
 

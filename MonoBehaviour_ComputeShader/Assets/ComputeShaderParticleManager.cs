@@ -138,7 +138,7 @@ public class ComputeShaderParticleManager : MonoBehaviour
 
     private void InitComputeShader()
     {
-        computeShader.SetFloat("CellSize", radius * 2); // Setting cell-size h to particle diameter.
+        computeShader.SetFloat("CellSize", radius * 2 * 2); // Setting cell-size h to double particle diameter.
         computeShader.SetInt("Dimensions", dimensions);
         computeShader.SetInt("maximumParticlesPerCell", maximumParticlesPerCell);
         computeShader.SetFloat("radius", radius);

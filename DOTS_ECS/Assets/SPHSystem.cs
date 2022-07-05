@@ -144,7 +144,7 @@ public class SPHSystem : SystemBase
     {
         _neighbourList = new NativeArray<int>(numberOfParticles * maximumParticlesPerCell * 8, Allocator.Persistent); // 8 because we consider 8 cells
         _neighbourTracker = new NativeArray<int>(numberOfParticles, Allocator.Persistent);
-        SpatialHashing.CellSize = radius * 2; // Setting cell-size h to particle diameter.
+        SpatialHashing.CellSize = radius * 2 * 2; // Setting cell-size h to double particle diameter.
         SpatialHashing.Dimensions = dimensions;
         _hashGrid = new NativeMultiHashMap<int, int>(numberOfParticles, Allocator.Persistent);
     }
